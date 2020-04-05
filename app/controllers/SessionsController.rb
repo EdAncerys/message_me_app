@@ -6,6 +6,14 @@ class SessionsController < ApplicationController
   
   end
 
+  def home
+
+  end
+
+  def users
+    # byebug
+  end
+
   def create 
     # byebug
     user = User.find_by(username: params[:session][:username])
