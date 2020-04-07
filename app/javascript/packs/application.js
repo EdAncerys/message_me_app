@@ -3,12 +3,18 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-require("@rails/ujs").start()
-require("jquery")
-require("@rails/activestorage").start()
-require("turbolinks").start()
-require("semanic-ui").start()
-require("channels")
+// require("@rails/ujs").start()
+// require("jquery")
+// require("@rails/activestorage").start()
+// require("turbolinks").start()
+// require("channels")
+
+//= require rails-ujs
+//= require jquery
+//= require activestorage
+//= require turbolinks
+//= require semantic-ui
+//= require_tree .
 
 
 // console.log("I'm loading JS file")
