@@ -3,19 +3,11 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-// require("@rails/ujs").start()
-// require("jquery")
-// require("@rails/activestorage").start()
-// require("turbolinks").start()
-// require("channels")
-
-//= require rails-ujs
-//= require jquery
-//= require activestorage
-//= require turbolinks
-//= require semantic-ui
-//= require_tree .
-
+require("@rails/ujs").start()
+require("jquery")
+require("turbolinks").start()
+require("@rails/activestorage").start()
+require("channels")
 
 // console.log("I'm loading JS file")
 
@@ -43,10 +35,10 @@ $(document).on('turbolinks:load', function() {
   scroll_bottom();
 })
 
-// $(document).ready(function(){
-//   console.log("Hellow from function")
-//   $('.ui.dropdown') .dropdown();
-// });
+$(document).ready(function(){
+  console.log("Hellow from function")
+  $('.ui.dropdown') .dropdown();
+});
 
 
 
