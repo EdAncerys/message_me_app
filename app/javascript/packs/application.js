@@ -37,7 +37,7 @@ $(document).on('turbolinks:load', function() {
 })
 
 // $(document).ready(function(){
-//   // console.log("Hellow from function")
+//   console.log("Hellow from function")
 //   $('.ui.dropdown') .dropdown();
 // });
 
