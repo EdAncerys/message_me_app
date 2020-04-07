@@ -28,14 +28,18 @@ submit_message = function() {
 };
 
 $(document).on('turbolinks:load', function() {
-  console.log("test funtion")
-  $('.ui.dropdown').dropdown();
+  // $('.ui.dropdown').dropdown();
   $('.message .close').on('click', function() {
     $(this).closest('.message').transition('fade');
   });
   submit_message();
   scroll_bottom();
 })
+
+$(document).ready(function(){
+  // console.log("Hellow from function")
+  $('.ui.dropdown') .dropdown();
+});
 
 
 
