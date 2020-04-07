@@ -36,10 +36,10 @@ $(document).on('turbolinks:load', function() {
   scroll_bottom();
 })
 
-$(document).ready(function(){
-  // console.log("Hellow from function")
-  $('.ui.dropdown') .dropdown();
-});
+// $(document).ready(function(){
+//   // console.log("Hellow from function")
+//   $('.ui.dropdown') .dropdown();
+// });
 
 
 
