@@ -1,15 +1,15 @@
 # Message Me App
 
-**Message Me Webb** App been build with Ruby on Rails framework and coded using **Ruby** as a language. Bootstrap been used for main UI element styling.  
-**Message Me App** is a simple web app that enables users to send and receive messages using live messaging service that been enabled via actionable with login functionality.
+**Message Me Webb** App been build with Ruby on Rails framework and coded using **Ruby** as a language. Bootstrap been used for main UI elements to add more modern feel to web app.  
+**Message Me App** is a simple web app that enables users to send and receive messages using live messaging service that been enabled via actionable. Login functionality been added to enable data privacy when using web app.
 
-The inspiration behind the project: Learn Ruby on Rails framework and deliver MVP.
+_The inspiration behind the project:_ Learn Ruby on Rails framework and deliver MVP.
 
 See the full project on [GitHub.][1]
 
 ### Message Me App
 
-[Specification](#specification) | [Tech Stack](#tech-stack) | [Installation](#installation) | [Running tests](#running-tests) | [Development Process](#development-process) | [Further development](#further-development)
+[Specification](#specification) | [Tech Stack](#tech-stack) | [Installation](#installation) | [Development Process](#development-process) | [Further development](#further-development)
 
 # Specification
 
@@ -40,7 +40,7 @@ Once the user is logged in, chat history and users that posted messages could be
 
 # Development Process
 
-During development process I used an agile process of using git, commit messages, git branches, merges, regular code refactor etc.
+During development process I used an agile development methodologies of using git, commit messages, git branches, merges and regular code refactor.
 
 ## MVP
 
@@ -66,13 +66,29 @@ So I can interact with other app users
 I want to be able to sent messages
 ```
 
+## Message Me Web App UI
+
+#### Login page/view
+
+<p align="center">
+    <img width="600" src="app/assets/images/message-me-app-01.png">  
+    *Proses Abstraction in OOP*
+</p>
+
+#### Home page view
+
+<p align="center">
+    <img width="600" src="app/assets/images/message-me-app-02.png">  
+    *Proses Abstraction in OOP*
+</p>
+
 # Further development
 
-To extend app functionality:
+To extend app functionality following features can be added:
 
 - Add feature to delete messages
 - Add feature to like other user messages
-- Add feature to share files, like photos iwth other app users
+- Add feature to share files, like photos with other app users
 - Add feature to add/follow friends
 
 [1]: https://github.com/EdAncerys/message_me_app
