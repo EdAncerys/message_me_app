@@ -68,18 +68,21 @@ I want to be able to sent messages
 
 ## Message Me Web App UI
 
-#### Login page/view
+### Login page/view
 
 <p align="center">
-    <img width="600" src="app/assets/images/message-me-app-01.png">  
-    *Proses Abstraction in OOP*
+    <img width="600" src="app/assets/images/message-me-app-01.png">
+
+    *User login view*
+
 </p>
 
-#### Home page view
+### Home page view
 
 <p align="center">
     <img width="600" src="app/assets/images/message-me-app-02.png">  
-    *Proses Abstraction in OOP*
+    
+    *Home page view*
 </p>
 
 # Further development
